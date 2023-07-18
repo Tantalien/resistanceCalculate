@@ -28,7 +28,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
+     <x>30</x>
      <y>30</y>
      <width>351</width>
      <height>21</height>
@@ -183,193 +183,6 @@ border-left-color: rgb(0, 0, 0);</string>
     <string>=</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_9">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>430</y>
-     <width>291</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>MS Reference Sans Serif</family>
-     <pointsize>10</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
-     <stylestrategy>PreferDefault</stylestrategy>
-     <kerning>false</kerning>
-    </font>
-   </property>
-   <property name="text">
-    <string>Сопротивление сенсора:</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_10">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>490</y>
-     <width>61</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Pн [Вт] </string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>490</y>
-     <width>121</width>
-     <height>23</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_11">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>490</y>
-     <width>21</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>=</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_12">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>460</y>
-     <width>61</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>R [Ом] </string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_13">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>460</y>
-     <width>271</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>...</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_14">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>460</y>
-     <width>21</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>=</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_15">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>520</y>
-     <width>61</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Uo [В] </string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label_16">
-   <property name="geometry">
-    <rect>
-     <x>110</x>
-     <y>520</y>
-     <width>21</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>=</string>
-   </property>
-  </widget>
-  <widget class="QLineEdit" name="lineEdit_4">
-   <property name="geometry">
-    <rect>
-     <x>140</x>
-     <y>520</y>
-     <width>121</width>
-     <height>23</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>560</y>
-     <width>221</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Рассчитать</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_17">
    <property name="geometry">
     <rect>
@@ -430,8 +243,8 @@ border-left-color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>100</y>
+     <x>30</x>
+     <y>540</y>
      <width>271</width>
      <height>21</height>
     </rect>
@@ -448,8 +261,8 @@ border-left-color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>130</y>
+     <x>30</x>
+     <y>560</y>
      <width>271</width>
      <height>21</height>
     </rect>
@@ -467,7 +280,7 @@ border-left-color: rgb(0, 0, 0);</string>
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>610</y>
+     <y>620</y>
      <width>411</width>
      <height>21</height>
     </rect>
@@ -485,7 +298,7 @@ border-left-color: rgb(0, 0, 0);</string>
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>240</y>
+     <y>230</y>
      <width>771</width>
      <height>20</height>
     </rect>
@@ -653,8 +466,8 @@ border-left-color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label_28">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>300</y>
+     <x>30</x>
+     <y>580</y>
      <width>301</width>
      <height>21</height>
     </rect>
@@ -671,8 +484,8 @@ border-left-color: rgb(0, 0, 0);</string>
   <widget class="QLabel" name="label_29">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>330</y>
+     <x>30</x>
+     <y>600</y>
      <width>341</width>
      <height>21</height>
     </rect>
@@ -684,24 +497,6 @@ border-left-color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>- номинальное напряж. источн. питания</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>370</y>
-     <width>221</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Рассчитать</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_19">
@@ -730,17 +525,6 @@ border-left-color: rgb(0, 0, 0);</string>
   <zorder>lineEdit_2</zorder>
   <zorder>label</zorder>
   <zorder>label_3</zorder>
-  <zorder>label_9</zorder>
-  <zorder>label_10</zorder>
-  <zorder>lineEdit_3</zorder>
-  <zorder>label_11</zorder>
-  <zorder>label_12</zorder>
-  <zorder>label_13</zorder>
-  <zorder>label_14</zorder>
-  <zorder>label_15</zorder>
-  <zorder>label_16</zorder>
-  <zorder>lineEdit_4</zorder>
-  <zorder>pushButton_2</zorder>
   <zorder>label_17</zorder>
   <zorder>radioButton</zorder>
   <zorder>radioButton_2</zorder>
@@ -759,7 +543,6 @@ border-left-color: rgb(0, 0, 0);</string>
   <zorder>lineEdit_6</zorder>
   <zorder>label_28</zorder>
   <zorder>label_29</zorder>
-  <zorder>pushButton_3</zorder>
   <zorder>label_19</zorder>
   <zorder>lineEdit</zorder>
  </widget>

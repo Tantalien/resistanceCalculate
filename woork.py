@@ -1,9 +1,10 @@
-import random
+
 import sys
 from PyQt6 import uic, QtWidgets
 from PyQt6.QtWidgets import QApplication
 from PyQt6.QtGui import QIcon
 import math
+
 
 Form, _ = uic.loadUiType('work project.ui')
 
@@ -14,10 +15,9 @@ class Ui(QtWidgets.QDialog, Form):
         super().__init__()
         self.setupUi(self)
         self.setWindowIcon(QIcon('calc.png'))
-        self.setWindowTitle('super-puper calculation')
-        self.pushButton_2.clicked.connect(self.RDevice_calc)
+        self.setWindowTitle('super-puper calculator')
         self.pushButton.clicked.connect(self.RWire_calc)
-        self.pushButton_3.clicked.connect(self.UVoltage_calc)
+        self.pushButton.clicked.connect(self.UVoltage_calc)
 
     def RWire_calc(self):
         global resistance
@@ -30,25 +30,13 @@ class Ui(QtWidgets.QDialog, Form):
 
             else:  # расчет по диаметру
                 cross = float(self.lineEdit_2.text())
-                resistance = 2 * (0.0175 * lenght) / (0.785 * cross**2 / 1e6)  # R = 2 * (p * l) / (0.785 * D^2)
+                resistance = 2 * (0.0175 * lenght) / (0.785 * cross**2)  # R = 2 * (p * l) / (0.785 * D^2)
 
             self.label_5.setText(f'{resistance:.6f}')
 
 
         except Exception as err:
             self.label_5.setText(f'{err}')
-
-    def RDevice_calc(self):
-        try:
-            power = float(self.lineEdit_3.text())
-            voltage = float(self.lineEdit_4.text())
-            amperage = power / voltage                     # I = P / U
-            resistance = voltage / amperage                # R = U / I
-            self.label_13.setText(f'{resistance:.6f}')
-
-        except Exception as err:
-            self.label_13.setText(f'{err}')
-
 
     def UVoltage_calc(self):
         global resistance
