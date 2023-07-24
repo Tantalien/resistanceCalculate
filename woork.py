@@ -1,4 +1,3 @@
-
 import sys
 from PyQt6 import uic, QtWidgets
 from PyQt6.QtWidgets import QApplication
@@ -18,6 +17,7 @@ class Ui(QtWidgets.QDialog, Form):
         self.setWindowTitle('super-puper calculator')
         self.pushButton.clicked.connect(self.RWire_calc)
         self.pushButton.clicked.connect(self.UVoltage_calc)
+
 
     def RWire_calc(self):
         global resistance
